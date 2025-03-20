@@ -3,7 +3,7 @@
 | [**Contributing**](#contributing)
 
 
-This is code implements the experiments of the paper [Identifiability and Generalizability in Constrained Inverse Reinforcement Learning](https://arxiv.org/pdf/2306.00629.pdf).
+This is code implements the experiments of the paper [Towards the Transferability of Rewards Recovered via Regularized Inverse Reinforcement Learning](https://proceedings.neurips.cc/paper_files/paper/2024/hash/2628d4d3b054c2d7ad33ab03435204f4-Abstract-Conference.html).
 
 ## Training
 - To generate synthetic expert data run `experiments/run_get_windy_experts.sh`
