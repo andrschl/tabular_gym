@@ -13,7 +13,7 @@ This is code implements the experiments of the paper [Towards the Transferabilit
 - The computations for Example 3.2 are done in the notebook `experiments/example.ipynb`
 
 ## Contributing
-If you would like to contribute to the project please reach out to [Andreas Schlaginhaufen](mailto:andreas.schlaginhaufen@epfl.ch?subject=[cirl]%20Contribution%20to%20transfer_irl). If you found this library useful in your research, please consider citing the following paper:
+If you would like to contribute to the project please reach out to [Andreas Schlaginhaufen](mailto:andreas.schlaginhaufen@epfl.ch?subject=[transfer_irl]%20Contribution%20to%20transfer_irl). If you found this library useful in your research, please consider citing the following paper:
 ```
 @inproceedings{NEURIPS2024_2628d4d3,
  author = {Schlaginhaufen, Andreas and Kamgarpour, Maryam},
