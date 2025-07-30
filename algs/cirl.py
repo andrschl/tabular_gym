@@ -2,15 +2,25 @@
 Implementation of gradient-descent ascent methods for constrained irl (in occupancy measure and policy space)
 """
 import numpy as np
-from env.gridworld import *
-from einops import einsum
-import wandb
-import math
-from sigpy import l1_proj
-from algs.l1_projection import euclidean_proj_l1ball
-from algs.cmdp import NPG_update, xi_update, mu_update_occ, xi_update_occ, v_update_occ
-from utils.geometric_tools import *
 import numpy.random as rn
+from ..env.gridworld import *
+from einops import einsum
+import math
+from .l1_projection import euclidean_proj_l1ball
+from .cmdp import NPG_update, xi_update, mu_update_occ, xi_update_occ, v_update_occ
+from ..utils.geometric_tools import *
+
+try:
+    import wandb
+    WANDB_AVAILABLE = True
+except ImportError:
+    WANDB_AVAILABLE = False
+    
+try:
+    from sigpy import l1_proj
+    SIGPY_AVAILABLE = True
+except ImportError:
+    SIGPY_AVAILABLE = False
 
 # utils
 

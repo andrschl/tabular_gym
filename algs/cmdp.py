@@ -2,10 +2,15 @@
 Implementation of gradient-descent ascent methods for CMDPs (in occupancy measure and policy space)
 """
 import numpy as np
-from env.gridworld import *
+from ..env.gridworld import *
 from einops import einsum
-import wandb
 from scipy.stats import entropy
+
+try:
+    import wandb
+    WANDB_AVAILABLE = True
+except ImportError:
+    WANDB_AVAILABLE = False
 
 # policy space updates
 

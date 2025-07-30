@@ -1,0 +1,9 @@
+include README.md
+include LICENSE
+include pyproject.toml
+recursive-exclude experiments *
+recursive-exclude .git *
+recursive-exclude .idea *
+recursive-exclude __pycache__ *
+recursive-exclude *.pyc *
+global-exclude .DS_Store
