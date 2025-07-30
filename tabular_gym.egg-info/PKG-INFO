@@ -1,5 +1,5 @@
 Metadata-Version: 2.4
-Name: tabular-gym
+Name: tabular_gym
 Version: 0.1.0
 Summary: A tabular reinforcement learning gym for constrained MDPs and inverse reinforcement learning
 Author-email: Andreas Schlaginhaufen <andreas.schlaginhaufen@epfl.ch>

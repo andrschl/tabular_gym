@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tabular-gym"
+name = "tabular_gym"
 version = "0.1.0"
 description = "A tabular reinforcement learning gym for constrained MDPs and inverse reinforcement learning"
 readme = "README.md"
@@ -50,6 +50,8 @@ Documentation = "https://github.com/username/tabular-gym"
 "Bug Tracker" = "https://github.com/username/tabular-gym/issues"
 
 [tool.setuptools.packages.find]
+where = ["."]
+include = ["tabular_gym*"]
 exclude = ["experiments*", "tests*"]
 
 [tool.setuptools.package-data]

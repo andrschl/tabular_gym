@@ -1,4 +1,1 @@
-algs
-env
-utils
-visualization
+tabular_gym

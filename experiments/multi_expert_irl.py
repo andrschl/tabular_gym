@@ -4,15 +4,13 @@ Learn rewards from two agents.
 
 # ----------------------------------------------------------------------------------------------------------------------
 # imports
-import sys
-sys.path.append('../')
 import numpy as np
 import numpy.random as rn
 import random
-from utils.geometric_tools import *
-from env.windy_gridworld import *
-from algs.cirl import reward, multi_expert_irl_gda
-import visualization.gridworld_vis as gv
+from tabular_gym.utils.geometric_tools import *
+from tabular_gym.env.windy_gridworld import *
+from tabular_gym.algs.cirl import reward, multi_expert_irl_gda
+import tabular_gym.visualization.gridworld_vis as gv
 import matplotlib
 import matplotlib.pyplot as plt
 matplotlib.use("TkAgg")

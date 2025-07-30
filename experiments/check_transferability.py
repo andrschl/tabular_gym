@@ -4,15 +4,13 @@ Test transferability to new environments.
 
 # ----------------------------------------------------------------------------------------------------------------------
 # imports
-import sys
-sys.path.append('../')
 import numpy as np
 import random
-from utils.geometric_tools import *
-from env.windy_gridworld import *
-from algs.cmdp import cmdp_gda, regularization
-from algs.cirl import reward
-import visualization.gridworld_vis as gv
+from tabular_gym.utils.geometric_tools import *
+from tabular_gym.env.windy_gridworld import *
+from tabular_gym.algs.cmdp import cmdp_gda, regularization
+from tabular_gym.algs.cirl import reward
+import tabular_gym.visualization.gridworld_vis as gv
 import matplotlib
 import matplotlib.pyplot as plt
 matplotlib.use("TkAgg")

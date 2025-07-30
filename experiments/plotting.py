@@ -4,9 +4,9 @@ Plotting for finite sample setting.
 
 import numpy as np
 import pandas as pd
-from utils.geometric_tools import *
+from tabular_gym.utils.geometric_tools import *
 from scipy.linalg import svdvals, subspace_angles
-from env.windy_gridworld import *
+from tabular_gym.env.windy_gridworld import *
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 mpl.use("TkAgg")

@@ -3,13 +3,11 @@ Generating the experts.
 """
 # ----------------------------------------------------------------------------------------------------------------------
 # imports
-import sys
 import numpy as np
-sys.path.append('../')
-from env.windy_gridworld import WindyGridworld
-from algs.cmdp import cmdp_gda, regularization
-from algs.cirl import batched_empirical_feature_expectation
-import visualization.gridworld_vis as gv
+from tabular_gym.env.windy_gridworld import WindyGridworld
+from tabular_gym.algs.cmdp import cmdp_gda, regularization
+from tabular_gym.algs.cirl import batched_empirical_feature_expectation
+import tabular_gym.visualization.gridworld_vis as gv
 import matplotlib
 from einops import rearrange, repeat
 import matplotlib.pyplot as plt
